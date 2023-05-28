@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>CNN Photo Gallery</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/gallerydata.js"></script>
+    <script src="scripts/code.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><img src="images/cnn%20logo.png" alt=""></li>
+                <li><a href="#">Aviation</a></li> |
+                <li><a href="#">Business Traveller</a></li> |
+                <li><a href="#">Destinations</a></li> |
+                <li><a href="#">Features</a></li> |
+                <li><a href="#">Food/Drink</a></li> |
+                <li><a href="#">Hotels</a></li> |
+                <li><a href="#">Partner Hotels</a></li>
+            </ul>
+        </div>
+    </nav>
+    <article id="main">
+        <header>
+            Jordan Trail: A trek through history via ancient villages and wild wadis
+        </header>
+        <section class="article-details">
+            <p>By Justin Calderon, CNN</p>
+            <p>Updated 0849 GMT (1649 HKT) May 18, 2017</p>
+        </section>
+        <aside>
+            <h3>More from Travel</h3>
+            <a href="#">
+                <div class="stories">
+                    <img src="images/story%2001%20thumb.jpg" alt="">And the best airline is...
+                </div>
+            </a>
+            <a href="#">
+                <div class="stories">
+                    <img src="images/story%2002%20thumb.jpg" alt="">The in-flight snack so popular it has its own emoji
+                </div>
+            </a>
+        </aside>
+        <section id="article-main">
+            <div class="image-navigator">
+                <a href="#" id="image-nav-left"> &lt; </a>
+                <a href="#" id="image-nav-right"> &gt; </a>
+                <img src="photos/01%20large.jpg" alt="first photo">
+                <!-- TODO: toon de foto die hoort bij de thumbnail die is aangeklikt  done-->
+            </div>
+            <section class="image-data">
+                <p><strong>Photos:</strong><span id="copyright">Jordan's jewels</span></p>
+                <!-- TODO: toon copyright van de geselecteerde foto  done-->
+                <p id="description">
+                    <strong>Green Start:</strong>  The Jordan trails begins from Um Quais in the north
+                    and traverses verdant forests and farmlands.</p>
+                <!-- TODO: toon beschrijving van de geselecteerde foto -->
+            </section>
+            <div id="thumbnails">
+                <div id="counterInfo"><span id="counter">1</span> van <span id="numThumbs">11</span></div> <!-- TODO: dynamisch -->
+                <div id="thumbnail-list">
+                    <!-- TODO: thumbnails  done-->
+                </div>
+            </div>
+            <div class="article-content">
+            <p><strong>(CNN) - </strong>Picture the Appalachian Trail in California, or the Camino de Santiago in Spain.</p>
+            <p>Then draw a route through more than 10,000 years of history, covering Neolithic ruins, Biblical sites, one of the
+                <a href="#">New 7 Wonders of the World</a>, and russet landscapes that wouldn't look out of place on Mars.</p>
+            </div>
+        </section>
+
+    </article>
+</div>
+</body>
+</html>
